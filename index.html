@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AZAN TIMINGS</title>
+    <link rel="stylesheet" href="style.css">
+     
+
+  </head>
+  <body>
+    <form onsubmit="datacheck(); return false" class="form">
+        <h1>PRAYER TIMES</h1>
+        <label for="">
+            COUNTRY NAME :<br>
+            <input type="text" id="country" placeholder="ENTER YOUR COUNTRY NAME" required>
+        </label><br><br>
+        <label for="">
+            CITY NAME :<br>
+            <input type="text" id="CITY" placeholder="ENTER YOUR CITY NAME" required>
+        </label>
+        <button>submit</button>
+    </form>
+    <div class="resultdiv"></div>
+
+   
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
